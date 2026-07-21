@@ -8,7 +8,8 @@ app.get('/', (req, res) => {
 
     res.send('<h1>Test 1</h1>');
      res.send('<h1>Test 2</h1>');
-
+ res.send('<h1>Test 1</h1>');
+     res.send('<h1>Test 2</h1>');
 });
 
 // Your existing health check endpoint
