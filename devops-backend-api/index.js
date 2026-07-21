@@ -6,10 +6,6 @@ const PORT = process.env.PORT || 3000;
 app.get('/', (req, res) => {
     res.send('<h1>Hello from my Docknkxer Container! 🐳</h1><p>My DevOps Assignment is running successfully .</p>');
 
-    res.send('<h1>Test 1</h1>');
-     res.send('<h1>Test 2</h1>');
- res.send('<h1>Test 1</h1>');
-     res.send('<h1>Test 2</h1>');
 });
 
 // Your existing health check endpoint
