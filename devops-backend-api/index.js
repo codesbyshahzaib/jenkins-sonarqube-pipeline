@@ -4,8 +4,9 @@ const PORT = process.env.PORT || 3000;
 
 // This is the new root route! It handles requests to exactly "http://localhost:3000"
 app.get('/', (req, res) => {
-    res.send('<h1>Hello from my Docknkxer Container! 🐳</h1><p>My DevOps Assignment is running successfully .</p>');
+    res.send('<h1>Hello from test my Docknkxer Container! 🐳</h1><p>My DevOps Assignment is running successfully .</p>');
 
+    res.send('<h1>Testing hte pipeline NO 5</h1>');
 });
 
 // Your existing health check endpoint
